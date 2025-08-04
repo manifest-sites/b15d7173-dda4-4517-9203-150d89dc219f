@@ -159,7 +159,8 @@ function AnimalTracker() {
   ]
 
   return (
-    <div className="p-6 max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <div className="p-6 max-w-7xl mx-auto">
       <div className="mb-6">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">Animal Tracker</h1>
         <p className="text-gray-600 mb-4">Keep track of animals you've observed or are monitoring</p>
@@ -270,6 +271,7 @@ function AnimalTracker() {
           </div>
         </Form>
       </Modal>
+      </div>
     </div>
   )
 }
