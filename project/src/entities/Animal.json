@@ -1,0 +1,50 @@
+{
+  "name": "Animal",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the animal"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the animal"
+    },
+    "species": {
+      "type": "string", 
+      "description": "Species of the animal (e.g., Dog, Cat, Bird)"
+    },
+    "breed": {
+      "type": "string",
+      "description": "Breed of the animal (optional)"
+    },
+    "age": {
+      "type": "number",
+      "description": "Age of the animal in years"
+    },
+    "weight": {
+      "type": "number", 
+      "description": "Weight of the animal in pounds"
+    },
+    "location": {
+      "type": "string",
+      "description": "Current location or habitat of the animal"
+    },
+    "health": {
+      "type": "string",
+      "description": "Health status (e.g., Healthy, Sick, Injured)"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about the animal"
+    },
+    "lastSeen": {
+      "type": "string",
+      "description": "Date when the animal was last seen"
+    }
+  },
+  "required": [
+    "name",
+    "species"
+  ]
+}
